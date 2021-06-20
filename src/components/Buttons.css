@@ -1,0 +1,50 @@
+[id^="button"]{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 1em;
+}
+[id^="button"]:hover{
+    background-color: #aaaaaa;
+    transition: background-color 0.5s;
+}
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #14213d;
+    border-radius: 20px;
+}
+
+.buttons{
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.buttons #button-9{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#functional-buttons{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
