@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./componentsStyles.css";
+import "./Buttons.css";
 
 class Screen extends Component {
     state = {  }

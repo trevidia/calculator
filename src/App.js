@@ -1,4 +1,3 @@
-import './App.css';
 import Buttons from './components/Buttons';
 import Screen from './components/Screen';
 import React, { Component } from 'react'
